@@ -7,12 +7,15 @@ var logger = require('morgan');
 // Database
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('localhost:27017/nodetest2');
+var db = monk(process.env.MONGO_URL) 
+console.log(db);
+
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+app.listen(8768);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

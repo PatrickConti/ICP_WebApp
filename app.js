@@ -8,7 +8,7 @@ var logger = require('morgan');
 var mongo = require('mongodb');
 var monk = require('monk');
 var db = monk(process.env.MONGO_URL) 
-console.log('Please open browser and navigate to http://192.168.176.NN:8768/');
+console.log('Please open browser and navigate to http://192.168.176.NN:87NN/');
 
 
 var indexRouter = require('./routes/index');

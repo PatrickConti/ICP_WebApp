@@ -15,4 +15,4 @@ This means that incoming API calls will work with port 31088 to manipulate the M
 
 For this particular setup, you have to be VPNed into the "namespace" where 31088 was exposed. 
 Please contact me and I can provide details on how to VPN into the proper subnet and access this namespace.
-Once SSHed in, the url used to access the webapp is: http://192.168.176.53:8768/
+Once SSHed in, the url used to access the webapp is: http://192.168.176.63:8768/

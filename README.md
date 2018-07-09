@@ -11,7 +11,7 @@ DOCKER RUN Command to run "teamNN-webapp" and pass in database address
 docker run -e "MONGO_URL=mongodb://192.168.176.4:30883/nodetest2" -p 87NN:8768 teamNN-webapp 
 
 This passes the address of the mongoDB in the cloud as an environment variable, with an exposed service at port 30883.
-This means that incoming API calls will work with port 31439 to manipulate the MongoDB address.
+This means that incoming API calls will work with port 30883 to manipulate the MongoDB address.
 -P indicates what port the webapp will run at
 
 For this particular setup, you have to be VPNed into the ICP environment where 30883 was exposed. 
